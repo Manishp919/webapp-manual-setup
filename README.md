@@ -1,4 +1,4 @@
-![Project Thumbnail](https://github.com/Manishp919/webapp-setup/blob/manual-setup/Picture%20for%20project%201.png?raw=true)
+![Project Thumbnail](https://github.com/Manishp919/webapp-setup/raw/manual-setup/Picture%20for%20project%201.png)
 1. Install prerequisites – Install Vagrant and VirtualBox on your system.  
 2. Clone the repository – Download the project files from GitHub.  
 3. Start virtual machines – Use Vagrant to provision multiple VMs.  
