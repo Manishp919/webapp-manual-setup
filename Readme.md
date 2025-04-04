@@ -1,3 +1,4 @@
+![Project Thumbnail](https://github.com/Manishp919/webapp-setup/blob/automated-setup/Picture%20for%20Project-2.png?raw=true)
 Project Overview : 
 This project automates the deployment of a multi-tier web application using Vagrant and shell scripts. It eliminates the manual setup process by provisioning virtual machines and configuring services automatically.  
 
