@@ -1,23 +1,25 @@
-## Manual Deployment with Vagrant
+1️⃣ **Install Prerequisites** → Install **Vagrant** and **VirtualBox**.  
 
-This repository contains a **manual deployment** setup using **Vagrant** to provision multiple VMs for a web application.
-
-### 📌 Vagrant Machines:
-- `db01` → Database server (CentOS)
-- `mc01` → Memcached server (CentOS)
-- `rmq01` → RabbitMQ messaging service (CentOS)
-- `app01` → Application server running Tomcat (CentOS)
-- `web01` → Web server with Nginx (Ubuntu)
-
-### 🚀 How to Use:
-
-1. **Install Vagrant & VirtualBox**  
-   - Download and install [Vagrant](https://www.vagrantup.com/downloads)  
-   - Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)  
-
-2. **Start the VMs**  
-
+2️⃣ **Clone Repository** →  
    ```bash
-   cd vagrant
-   vagrant up
+   git clone https://github.com/yourusername/webapp-manual-setup.git  
+   cd webapp-manual-setup  
+   ```  
 
+3️⃣ **Start VMs** →  
+   ```bash
+   vagrant up  
+   ```  
+
+4️⃣ **SSH into VMs** →  
+   ```bash
+   vagrant ssh web01  # Nginx  
+   vagrant ssh app01  # Tomcat  
+   vagrant ssh db01   # PostgreSQL  
+   ```  
+
+5️⃣ **Manually Install & Configure Services** → Follow `setup-guide.md`.  
+
+6️⃣ **Verify Setup** → Check running services on each VM.  
+
+7️⃣ **Access Application** → Open browser and navigate to **http://192.168.56.11** (Nginx).  
