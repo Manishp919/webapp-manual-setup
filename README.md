@@ -1,25 +1,10 @@
-1️⃣ **Install Prerequisites** → Install **Vagrant** and **VirtualBox**.  
-
-2️⃣ **Clone Repository** →  
-   ```bash
-   git clone https://github.com/yourusername/webapp-manual-setup.git  
-   cd webapp-manual-setup  
-   ```  
-
-3️⃣ **Start VMs** →  
-   ```bash
-   vagrant up  
-   ```  
-
-4️⃣ **SSH into VMs** →  
-   ```bash
-   vagrant ssh web01  # Nginx  
-   vagrant ssh app01  # Tomcat  
-   vagrant ssh db01   # PostgreSQL  
-   ```  
-
-5️⃣ **Manually Install & Configure Services** → Follow `setup-guide.md`.  
-
-6️⃣ **Verify Setup** → Check running services on each VM.  
-
-7️⃣ **Access Application** → Open browser and navigate to **http://192.168.56.11** (Nginx).  
+1. Install prerequisites – Install Vagrant and VirtualBox on your system.  
+2. Clone the repository – Download the project files from GitHub.  
+3. Start virtual machines – Use Vagrant to provision multiple VMs.  
+4. Access virtual machines – Connect to each VM via SSH.  
+5. Manually install services – Set up Nginx, Tomcat, PostgreSQL, RabbitMQ, and Memcached.  
+6. Configure services – Manually configure each service for proper communication.  
+7. Verify setup – Ensure all services are running correctly.  
+8. Access the web application – Open a browser and navigate to the Nginx server.  
+9. Limitations – Recognize challenges such as manual errors, slow deployment, and scalability issues.  
+10. Next step – Explore the automated version of this project for a more efficient deployment process.
